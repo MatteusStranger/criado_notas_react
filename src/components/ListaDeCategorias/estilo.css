@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;500&display=swap');
+
+.lista-categorias {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.lista-categorias_lista {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lista-categorias_item {
+    background-color: var(--secundaria);
+    color: white;
+    padding: 4px 8px;
+    border-radius: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.lista-categorias_input {
+    margin-right: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
